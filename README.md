@@ -109,6 +109,11 @@ vendor/bin/phpunit
 - Authentication projects require HTTPS in production
 - No real payment processing in e-commerce demo
 
+## Documentation
+
+See the [documentation index](docs/README.md) for links to each project's
+setup, usage, testing, security, and limitations guidance.
+
 ## License
 
 MIT License - See LICENSE file
