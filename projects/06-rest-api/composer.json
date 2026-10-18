@@ -1,0 +1,21 @@
+{
+    "name": "php-mini/rest-api",
+    "description": "REST API with JSON responses",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RestApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RestApi\\Tests\\": "tests/"
+        }
+    }
+}

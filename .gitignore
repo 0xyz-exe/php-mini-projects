@@ -1,0 +1,37 @@
+# Dependencies
+vendor/
+composer.lock
+
+# Environment
+.env
+*.env.local
+
+# Database
+*.db
+*.sqlite
+*.sql
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+tmp/
+temp/
+cache/
+
+# Uploads
+uploads/*
+!uploads/.gitkeep

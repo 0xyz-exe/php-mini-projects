@@ -1,0 +1,21 @@
+{
+    "name": "php-mini/file-upload-manager",
+    "description": "Secure file upload with validation",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FileUpload\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FileUpload\\Tests\\": "tests/"
+        }
+    }
+}

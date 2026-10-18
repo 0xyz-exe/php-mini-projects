@@ -1,0 +1,21 @@
+{
+    "name": "php-mini/expense-tracker",
+    "description": "Personal finance expense tracker",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExpenseTracker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ExpenseTracker\\Tests\\": "tests/"
+        }
+    }
+}

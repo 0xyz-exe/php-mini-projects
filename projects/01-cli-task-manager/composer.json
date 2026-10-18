@@ -1,0 +1,21 @@
+{
+    "name": "php-mini/cli-task-manager",
+    "description": "CLI task manager with SQLite storage",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaskManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TaskManager\\Tests\\": "tests/"
+        }
+    }
+}

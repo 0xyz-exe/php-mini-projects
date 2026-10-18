@@ -1,0 +1,21 @@
+{
+    "name": "php-mini/inventory-system",
+    "description": "Inventory management with stock tracking",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inventory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Inventory\\Tests\\": "tests/"
+        }
+    }
+}

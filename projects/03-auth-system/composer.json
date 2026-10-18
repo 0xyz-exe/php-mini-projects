@@ -1,0 +1,21 @@
+{
+    "name": "php-mini/auth-system",
+    "description": "Secure authentication system with bcrypt and CSRF protection",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Auth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Auth\\Tests\\": "tests/"
+        }
+    }
+}
