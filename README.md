@@ -2,6 +2,25 @@
 
 15+ complete, functional PHP applications demonstrating modern PHP development, backend logic, database integration, authentication, REST APIs, and secure web development.
 
+Repository: https://github.com/0xyz-exe/php-mini-projects
+
+## Screenshots
+
+### CRUD Admin Dashboard
+![CRUD Admin Dashboard](docs/screenshots/01_admin_dashboard.png)
+
+### Simple E-Commerce Store & Checkout
+![E-Commerce Store](docs/screenshots/02_ecommerce_store.png)
+
+### Blog CMS & Publishing
+![Blog CMS](docs/screenshots/03_blog_cms.png)
+
+### Website Health Monitor
+![Health Monitor](docs/screenshots/04_health_monitor.png)
+
+### CLI Task Manager
+![CLI Task Manager](docs/screenshots/05_cli_task.png)
+
 ## Technology Stack
 
 - **PHP**: 8.3.33
@@ -66,7 +85,7 @@ Job search organizer with status tracking and statistics.
 
 ```bash
 # Clone repository
-git clone <repo-url>
+git clone https://github.com/0xyz-exe/php-mini-projects.git
 cd php-mini-projects
 
 # Navigate to a project
