@@ -6,19 +6,24 @@ Repository: https://github.com/0xyz-exe/php-mini-projects
 
 ## Screenshots
 
-### CRUD Admin Dashboard
+### 1. CRUD Admin Dashboard
+Panel administrasi inventaris produk berbasis PHP & PDO SQLite lengkap dengan metrik total produk, valuasi stok ($14,250.00), peringatan stok menipis, dan aksi kelola:
 ![CRUD Admin Dashboard](docs/screenshots/01_admin_dashboard.png)
 
-### Simple E-Commerce Store & Checkout
+### 2. Simple E-Commerce Store & Checkout
+Antarmuka etalase toko online dengan manajemen keranjang belanja (Cart), formulir pengiriman pembeli, rincian item, dan kalkulasi pembayaran instan:
 ![E-Commerce Store](docs/screenshots/02_ecommerce_store.png)
 
-### Blog CMS & Publishing
+### 3. Blog CMS & Publishing
+Studio penulisan dan penerbitan artikel blog dengan status draft/published, slug generator otomatis, editor konten, serta metadata kategori dan tagar:
 ![Blog CMS](docs/screenshots/03_blog_cms.png)
 
-### Website Health Monitor
+### 4. Website Health Monitor
+Utilitas audit uptime dan latensi jaringan berbasis PHP 8.3 dengan pelacakan kode status HTTP, waktu respon milidetik, dan validitas sertifikat SSL:
 ![Health Monitor](docs/screenshots/04_health_monitor.png)
 
-### CLI Task Manager
+### 5. CLI Task Manager
+Aplikasi terminal pengelola tugas harian berbasis mesin database SQLite WAL dengan filter prioritas (High, Medium, Low), pelacakan tenggat waktu, dan perintah penyelesaian:
 ![CLI Task Manager](docs/screenshots/05_cli_task.png)
 
 ## Technology Stack
